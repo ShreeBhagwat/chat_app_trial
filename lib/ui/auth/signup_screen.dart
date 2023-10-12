@@ -162,7 +162,7 @@ class SignUpScreen extends StatelessWidget {
         .then((value) {
       if (value) {
         Navigator.of(context).pushAndRemoveUntil(
-            MaterialPageRoute(builder: (_) => const ChatScreen()),
+            MaterialPageRoute(builder: (_) =>  ChatScreen()),
             (route) => false);
       } else {
         log('User creation failed');

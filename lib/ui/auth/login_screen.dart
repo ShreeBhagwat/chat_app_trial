@@ -129,7 +129,7 @@ class LoginScreen extends StatelessWidget {
           // ));
 
           Navigator.of(context).pushAndRemoveUntil(
-              MaterialPageRoute(builder: (_) => const ChatScreen()),
+              MaterialPageRoute(builder: (_) =>  ChatScreen()),
               (route) => false);
         } else {
           // Failed to login user
